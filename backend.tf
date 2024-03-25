@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "techtorialgke"
+   bucket  = "danatech"
    prefix  = "terraform/state"
  }
 }
